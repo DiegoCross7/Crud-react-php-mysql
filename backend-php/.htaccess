@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Permitir acceso directo a la carpeta fotos_empleados
+RewriteCond %{REQUEST_URI} ^/fotos_empleados/ [NC]
+RewriteRule ^ - [L]
+
+# Manejar Front Controller...
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]
