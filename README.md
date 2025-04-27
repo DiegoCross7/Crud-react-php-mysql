@@ -5,6 +5,8 @@
 ## ✨ Descripción
 
 Proyecto de demostración de un sistema **CRUD** (Crear, Leer, Actualizar, Eliminar) implementado con **React** en el frontend, **PHP** en el backend y **MySQL** como base de datos. Ideal para aprender la integración entre estas tecnologías y aplicar en tus propios proyectos.
+LINK SUBIDO A HOST :
+https://960439320.senati.chat.pe/dist/
 
 ## 🚀 Tecnologías
 
